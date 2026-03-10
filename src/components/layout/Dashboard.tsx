@@ -98,6 +98,7 @@ export function Dashboard({ state, onSearch, onToggleDisaster, onDisasterType, o
             <DisasterPanel
               active={disasterMode}
               type={disasterType}
+              location={state.location}
               onToggle={onToggleDisaster}
               onTypeSelect={onDisasterType}
             />
